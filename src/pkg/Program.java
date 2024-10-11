@@ -95,61 +95,7 @@ public class Program {
 				
 		}
 		
-		//prints a list of entree
-		
-//		//print a particular entree in the menu
-//		Item myItem = c1.getEntree(1);
-//		System.out.println(myItem);
-		
-		
-			
-//		//Exercice 3.1 Gestion des fichiers/ retour sur le TpResto
-//		
-//		try {
-//			// création du fichier dans le Rep pour écrire dedant avec le chemin absolut(attention sensitive)
-//			FileWriter fileWriter = new FileWriter("C:/Users/SahlouneB/Desktop/Read/fichier.txt");
-//			BufferedWriter bufferWriter = new BufferedWriter(fileWriter);
-//			
-//		
-//		Scanner scan = new Scanner(System.in);
-//		System.out.println("Bonjour bienvenu au FMS-RESTO, combien de menus souhaitez-vous ?");
-//		
-//		int value = checkScan(scan,"Erreur ce n'est pas chiffre");
-//		int counterCommande = 0;
-//		
-//		while(value > 0) {
-//			value--;
-//			counterCommande++;
-//			
-//			ArrayList<String> listCommande = new ArrayList<String>();
-//			System.out.println("");
-//			System.out.println("--------------------");
-//			System.out.println("Commande numéro "+counterCommande);
-//			listCommande.add(c1.getAllEntree());
-//			listCommande.add(c1.getAllPlats());
-//			listCommande.add(c1.getAllAccompagnement());
-//			listCommande.add(c1.getAllboissons());
-//			listCommande.add(c1.getAllDesserts());
-//			
-//			
-//			System.out.println("Résume de la commande n°" + counterCommande);
-//			bufferWriter.write("**************Resumé de la commande n°" +counterCommande+"************");
-//			for(String commande: listCommande) {
-//				
-//				System.out.print(commande+"\n");
-//				// on écrit et on  rajoute au fichier 
-//				bufferWriter.write("\n"+commande+ "\n");
-//			}
-//		}
-//		
-//		System.out.println(" ");
-//		System.out.println("Au revoir et à bientot chez FMS-RESTO.");
-//		bufferWriter.close();
-//		// erreur si lors de la création du fichier ou autre
-//		}catch(IOException e) {
-//			System.out.println("Error");
-//		}
-//
+
 	}
 	
 	// Méthode pour tester si on entre un chiffre 
